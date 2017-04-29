@@ -16,7 +16,9 @@ namespace VirtualGamepad
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            new View.Form1().Show();
+            //new View.MainWindow().Show();
+            Application.Run();
         }
     }
 }
